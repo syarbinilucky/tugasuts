@@ -22,7 +22,7 @@
   <body class="light ">
     <div class="wrapper vh-100">
       <div class="row align-items-center h-100">
-        <form action="/registeruser" method="POST" class="col-lg-3 col-md-4 col-10 mx-auto text-center">
+        <form action="/registeruser" method="post" class="col-lg-3 col-md-4 col-10 mx-auto text-center">
             @csrf
             <a class="navbar-brand mx-auto mt-2 flex-fill text-center" href="#">
               <span class="avatar avatar-sm mt-2">

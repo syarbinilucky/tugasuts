@@ -108,7 +108,7 @@
                                 <a class="nav-link pl-3" href="{{ route('tambahdata') }}"><span class="ml-1 item-text">INPUT DATA</span></a>
                             </li>
                         </ul> --}}
-                       
+
                     </li>
                 </ul>
             </nav>

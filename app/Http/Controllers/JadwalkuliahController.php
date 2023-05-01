@@ -27,7 +27,7 @@ class JadwalkuliahController extends Controller
             return $query->where('semester', 'like', '%' . $request->semester . '%');
 
         });
-
+        //$data = Jadwalkuliah::paginate(5);
         $data = $data->get();
         return view('admin.matkul',compact('data'));
     }
@@ -61,5 +61,5 @@ class JadwalkuliahController extends Controller
     }
 
 
-    
+
 }

@@ -18,17 +18,16 @@
                                             <div class="row mb-3">
                                                 <div class="col-sm-2">
                                                     <label for="prodi" class="form-label">Angkatan</label>
-                                                    <input name="angkatan" type="number" class="form-control" placeholder="angkatan" value="{{isset($_GET['angkatan']) ? $_GET['angkatan'] : ''}}">  
+                                                    <input name="angkatan" type="number" class="form-control" placeholder="angkatan" value="{{isset($_GET['angkatan']) ? $_GET['angkatan'] : ''}}">
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <label for="prodi" class="form-label">Prodi</label>
-                                                    <input name="prodi" type="text" class="form-control" placeholder="prodi" value="{{isset($_GET['age']) ? $_GET['prodi'] : ''}}">  
-                                                </div>
+                                                    <input name="prodi" type="text" class="form-control" placeholder="prodi" value="{{isset($_GET['age']) ? $_GET['prodi'] : ''}}">                                                </div>
                                                 <div class="col-sm-2">
                                                     <label for="semester" class="form-label">Semester</label>
-                                                    <input name="semester" type="number" class="form-control" placeholder="semester" value="{{isset($_GET['age']) ? $_GET['semester'] : ''}}">  
+                                                    <input name="semester" type="number" class="form-control" placeholder="semester" value="{{isset($_GET['age']) ? $_GET['semester'] : ''}}">
                                                 </div>
-                                                
+
                                                 <div class="col-sm-2">
                                                     <button type="submit" class="btn btn-primary mt-4">Search</button>
                                                 </div>
